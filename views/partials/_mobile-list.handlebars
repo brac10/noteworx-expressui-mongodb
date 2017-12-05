@@ -1,0 +1,26 @@
+<div class="show-mobile">    
+        <a href='/notes/add' class="btn btn-primary mb-3">Add Note</a>
+    {{#each notes}}
+    <div class="card mb-3">
+        <div class="card-body">
+            <h4 class="card-title">{{title}}</h4>
+            <h6 class="card-subtitle mb-2 text-muted">{{updated_date}}</h6>
+            <p class="card-text">{{content}}</p>
+            <a class="btn btn-primary d-inline-block" href="/notes/edit/{{id}}">
+                <i class="fa fa-pencil fa-lg mr-2"></i>Edit
+            </a>
+            <form action="/notes/delete" method="post" name="delete-{{id}}" class="d-inline-block">
+                <input type="hidden" name="note_id" value="{{id}}">
+                <a class="btn btn-danger" href="javascript:document.forms['delete-{{id}}'].submit()">
+                    <i class="fa fa-trash-o fa-lg mr-2"></i>Delete
+                </a>
+            </form>
+        </div>
+    </div>
+    {{else}}
+    <div class="alert alert-primary">
+        <p class="lead">Add your first note!</p>
+        <a href='/notes/add' class="btn btn-lg btn-primary">Add Note</a>
+    </div>
+    {{/each}}
+</div>

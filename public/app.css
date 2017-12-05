@@ -1,0 +1,26 @@
+ /** BOOTSTRAP OVERRIDES **/
+.btn {
+    cursor: pointer;
+}
+
+/** _NAVBAR **/
+.header {
+    min-height: 100px;
+}
+
+ /** CUSTOM SIZING **/
+
+ .show-mobile {
+    display: none;
+}
+
+@media (max-width: 767px){
+
+    .show-mobile {
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
