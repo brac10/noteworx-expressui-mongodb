@@ -13,6 +13,15 @@ A basic note application that uses an [ExpressJS] frontend to capture and manage
 
 ![noteworx-expressui-mongodb](https://user-images.githubusercontent.com/33935506/33606066-cf10adae-d9c4-11e7-8661-ec93d3d0fcd7.PNG)
 
+## Screenshots
+
+![noteworx-expressui-mongodb-1](https://user-images.githubusercontent.com/33935506/33793938-33142184-dcca-11e7-937c-d19dbf32fd01.PNG) ![noteworx-expressui-mongodb-2](https://user-images.githubusercontent.com/33935506/33793939-335239ba-dcca-11e7-9dfb-356cbbf3e4c4.PNG) ![noteworx-expressui-mongodb-3](https://user-images.githubusercontent.com/33935506/33793940-33881a58-dcca-11e7-85e2-7d7f1f42dec7.PNG) ![noteworx-expressui-mongodb-4](https://user-images.githubusercontent.com/33935506/33793941-34a1bd54-dcca-11e7-85e9-dc583771953a.PNG) ![noteworx-expressui-mongodb-5](https://user-images.githubusercontent.com/33935506/33793942-34d4c370-dcca-11e7-8f6f-b43b9e389f00.PNG)
+![noteworx-expressui-mongodb-6](https://user-images.githubusercontent.com/33935506/33793943-350d2058-dcca-11e7-8a75-94d4d162d423.PNG)
+![noteworx-expressui-mongodb-7](https://user-images.githubusercontent.com/33935506/33793944-354098c0-dcca-11e7-841d-c0752357113e.PNG)
+![noteworx-expressui-mongodb-8](https://user-images.githubusercontent.com/33935506/33793945-3575e214-dcca-11e7-8f12-cdbe28b030dd.PNG)
+![noteworx-expressui-mongodb-9](https://user-images.githubusercontent.com/33935506/33793946-35aa1660-dcca-11e7-827a-e9a10e410f07.PNG)
+![noteworx-expressui-mongodb-10](https://user-images.githubusercontent.com/33935506/33793947-35de63ac-dcca-11e7-84c5-f81ac0f4cf7b.PNG)
+
 ---
 
 ## Developed With
@@ -29,10 +38,28 @@ A basic note application that uses an [ExpressJS] frontend to capture and manage
 ## Related Projects
 
 * [noteworx-cli-fs]
+
+  A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage notes, and a file system to store notes 
+
 * [noteworx-cli-mongodb]
+
+  A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage notes, and mongodb to store notes 
+
 * [noteworx-cli-mongoose]
+
+  A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage notes, Mongoose ODM to manage MongoDB interaction, and mongodb to store notes
+
 * [noteworx-cli-couchbase]
+
+  A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage notes, and couchbase as a data store
+
 * [noteworx-cli-express-mongodb]
+
+  A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage notes, an express note management API built using Express, and Mongodb to store notes
+
+* [noteworx-react-mongodb]
+
+  A basic note application that uses React frontend to capture and manage notes, an api written in ExpressJS, and mongodb to store notes
 
 ---
 
@@ -231,3 +258,5 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [noteworx-cli-mongoose]: https://github.com/drminnaar/noteworx-cli-mongoose
 [noteworx-cli-couchbase]: https://github.com/drminnaar/noteworx-cli-couchbase
 [noteworx-cli-express-mongodb]: https://github.com/drminnaar/noteworx-cli-express-mongodb
+[noteworx-expressui-mongodb]: https://github.com/drminnaar/noteworx-expressui-mongodb
+[noteworx-react-mongodb]: https://github.com/drminnaar/noteworx-react-mongodb
