@@ -1,5 +1,7 @@
 <div class="show-mobile">    
-        <a href='/notes/add' class="btn btn-primary mb-3">Add Note</a>
+    {{#if notes}}
+    <a href='/notes/add' class="btn btn-primary mb-3">Add Note</a>
+    {{/if}}
     {{#each notes}}
     <div class="card mb-3">
         <div class="card-body">
